@@ -247,3 +247,59 @@ header{
 .additional img{
     border-radius: 50px;
 }
+
+/* ----------------------information-box----------- */
+.information{
+    max-width: 1440px;
+    margin:  auto;
+    margin-bottom: 200px;
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-tittle h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.info-box label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.email{
+    padding: 20px 200px 20px 20px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+.text-box{
+    padding: 20px 10px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+.btn-info{
+    text-align: center;
+}
+.info-btn{
+    font-size: 18px;
+    padding: 12px 178px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    margin-bottom: 20px;
+}
+.btn-info a{
+    text-decoration: none;
+}
+.info-btn:hover{
+    background-color: rgba(172, 255, 47, 0.952);
+    box-shadow: 10px 10px 5px rgba(157, 157, 157, 0.861);
+    color: black;
+    transition: background-color 1s ease-in;
+    cursor: pointer;
+}
