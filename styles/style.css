@@ -125,3 +125,33 @@ header{
     width: 100%;
     border-radius: 40px;
 }
+
+/* ------------------user---------------- */
+.user{
+    max-width: 1440px;
+    margin:  auto;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #f3f2f2;
+}
+.user-heading{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.user-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+.user-count h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user-count p{
+    color: #969696;
+}
