@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+header{
+    background-image: url(../image/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --------navigation--------- */
+.navigation{
+    max-width: 1440px;
+    margin:  auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.singup-btn{
+    font-size: 18px;
+    padding: 15px 25px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+}
+.singup-btn a{
+    text-decoration: none;
+}
+.singup-btn:hover{
+    background-color: rgba(172, 255, 47, 0.952);
+    box-shadow: 10px 10px 5px rgba(157, 157, 157, 0.861);
+    color: black;
+    transition: background-color 1s ease-in;
+    cursor: pointer;
+}
+
+/* ---------------banner----------------- */
+
+.banner{
+    max-width: 1440px;
+    margin:  auto;
+    padding-top: 150px;
+    text-align: center;
+
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+
+}
+.banner-btn{
+    margin-top: 40px;
+    margin-bottom: 200px;
+    font-size: 18px;
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+}
+.banner-btn:hover{
+    background-color: rgba(172, 255, 47, 0.952);
+    box-shadow: 10px 10px 5px rgba(157, 157, 157, 0.861);
+    color: black;
+    transition: background-color 1s ease-in;
+    cursor: pointer;
+}
+.banner-btn a{
+    text-decoration: none;
+}
