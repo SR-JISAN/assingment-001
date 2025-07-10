@@ -26,7 +26,7 @@ header{
     font-weight: 900;
     color: #4E47FF;
 }
-.singup-btn{
+.signup-btn{
     font-size: 18px;
     padding: 15px 25px;
     font-weight: bold;
@@ -35,10 +35,10 @@ header{
     border: 0px;
     color: white;
 }
-.singup-btn a{
+.signup-btn a{
     text-decoration: none;
 }
-.singup-btn:hover{
+.signup-btn:hover{
     background-color: rgba(172, 255, 47, 0.952);
     box-shadow: 10px 10px 5px rgba(157, 157, 157, 0.861);
     color: black;
@@ -92,7 +92,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
- .action-contant h1{
+ .action-content h1{
     font-size: 42px;
     font-weight: bold;
  }
@@ -194,7 +194,7 @@ header{
     align-items: center;
 }
 .card-img h3{
-    color: #B3B3B3;
+    color: #a4a4a4;
 }
 .card-img p{
     color: #B3B3B3;
@@ -203,4 +203,47 @@ header{
     width: 100%;
     height: 55px;
     border-radius: 30px;
+}
+
+/* -------additional-part--------- */
+.additional{
+    max-width: 1440px;
+    margin:  auto;
+    margin-bottom: 200px;
+    text-align: center;
+    background-color: rgba(242, 242, 242, 0.888);
+    border-radius: 10px;
+    padding: 70px 0px;
+}
+.additional h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.additional p{
+    font-size: 18px; color: #9e9e9e;
+    margin-bottom: 20px;
+}
+.add-btn{
+    font-size: 18px;
+    padding: 12px 36px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    margin-bottom: 20px;
+}
+.add-btn a{
+    text-decoration: none;
+}
+.add-btn:hover{
+    background-color: rgba(172, 255, 47, 0.952);
+    box-shadow: 10px 10px 5px rgba(157, 157, 157, 0.861);
+    color: black;
+    transition: background-color 1s ease-in;
+    cursor: pointer;
+}
+.additional img{
+    border-radius: 50px;
 }
